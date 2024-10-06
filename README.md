@@ -1,1 +1,1 @@
-<iframe src="https://i.simmer.io/@v0games/gsim" style="width:960px;height:600px"></iframe>
+<iframe src="https://i.simmer.io/@v0games/gsim2" style="width:960px;height:600px"></iframe>
