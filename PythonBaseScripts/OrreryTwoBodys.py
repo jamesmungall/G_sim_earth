@@ -15,7 +15,7 @@ pos_x_sun=0
 pos_y_sun=5
 mass_sun=5000
 
-dt=0.0000005
+dt=0.0005
 
 def get_new_velocity(pos_x,pos_y,mass):
     distance=sqrt((pos_x - pos_x_asteroid[-1]) * (pos_x - pos_x_asteroid[-1]) + (pos_y - pos_y_asteroid[-1]) * (pos_y - pos_y_asteroid[-1]))
@@ -36,7 +36,7 @@ def get_new_position():
     new_pos_y = pos_y_asteroid[-1] + change_pos_y
     return [new_pos_x, new_pos_y]
 
-for i in range(5000000000000):
+for i in range(5000000000):
     new_velocity_earth=get_new_velocity(pos_x_earth,pos_y_earth,mass_earth)
     new_velocity_sun=get_new_velocity(pos_x_sun,pos_y_sun,mass_sun)
 
