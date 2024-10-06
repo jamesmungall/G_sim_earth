@@ -1,0 +1,57 @@
+G sim earth
+
+
+references:
+
+Asteroid Tracking
+https://www.cs.umd.edu/Outreach/hsContest98/questions/node8.html
+
+
+
+
+Introduction:
+
+We calculated the trajectory of the asteroid Eros as it goes around the sun and past the earth. Will the gravity of the earth cause the asteriod to crash into the earth?
+
+Method:
+
+For a short period of time (initially 0.2s), we calculated the change in velocity of the asteroid due to the effect of gravity.
+
+The change in velocity is proportional to the mass of the sun (or earth), and inversely proportional to the square of the distance.
+
+In other words, the asteroid is more strongly affected by a bigger mass, and very strongly affected by the distance of the asteroid from the sun (or earth).
+
+From the new velocity we calculate the new position of the asteroid.
+
+Then the process is repeated for the next increment of time.
+
+
+Implementation in python:
+
+This calculation was completed in python with the following script:
+
+https://jamesmungall.github.io/G_sim_earth/OrreryTwoBodys.py
+
+The results were plotted using matplotlib on python.
+
+
+Implementation in C# and Unity:
+
+The calculation was also completed in C# with the following script:
+
+https://jamesmungall.github.io/G_sim_earth/gravity_object.cs
+
+
+
+Results from python:
+
+https://jamesmungall.github.io/G_sim_earth/PythonBaseScripts/OrreryTwoBodyExampleImage.png
+
+The blue line represents the trajectory of the asteroid. The green dot towards the top left is the earth. The green dot in the bottom right hand corner is the sun.
+
+
+
+
+Results from unity:
+
+https://jamesmungall.github.io/G_sim_earth/
