@@ -12,7 +12,7 @@ There are also example images of each one in the same `PythonBaseScripts` folder
 
 Then the Unity project is just in the root directory.
 
-The `index.html` file contains a bit more information for of the project. There is also a presentation which was used to present the project at the nd of the weekend at the Met Office.
+The `index.html` file contains a bit more information for of the project. There is also a presentation which was used to present the project at the end of the weekend at the Met Office.
 
 Here is a [link](https://i.simmer.io/@v0games/gsim) to a demo of the finnished project.
 
